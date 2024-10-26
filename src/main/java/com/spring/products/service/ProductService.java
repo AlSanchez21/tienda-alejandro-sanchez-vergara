@@ -15,12 +15,12 @@ public class ProductService {
 
     // Constructor:
     public ProductService() {
-        productList.add(new ProductEntity("Condones", "Farmacia", 8.000, 150));
-        productList.add(new ProductEntity("Satisfayer", "Juguetes", 300.000, 50));
-        productList.add(new ProductEntity("Lubricante", "Farmacia", 25.000, 80));
-        productList.add(new ProductEntity("Pack inicial", "Packs", 30.000, 230));
-        productList.add(new ProductEntity("Disfraz Hombre", "Ropa", 150.000, 15));
-        productList.add(new ProductEntity("Disfraz Mujer", "Ropa", 200.000, 15));
+        productList.add(new ProductEntity("Monitor", "Visual", 700.000, 50));
+        productList.add(new ProductEntity("Teclado y Mouse", "Utilidad", 250.000, 150));
+        productList.add(new ProductEntity("Tarjeta grafica", "Rendimiento", 900.000, 80));
+        productList.add(new ProductEntity("Bafles", "Sonido", 200.000, 65));
+        productList.add(new ProductEntity("UPS", "Utilidad", 300.000, 35));
+        productList.add(new ProductEntity("Procesador", "Rendimiento", 700.000, 45));
     }
     
     public ProductEntity createProduct(String name, String category, double price, int stock) {

@@ -16,10 +16,7 @@ public class ProductService {
     // Constructor:
     public ProductService() {
         productList.add(new ProductEntity("Monitor", "Visual", 700.000, 50));
-        productList.add(new ProductEntity("Teclado y Mouse", "Utilidad", 250.000, 150));
-        productList.add(new ProductEntity("Tarjeta grafica", "Rendimiento", 900.000, 80));
-        productList.add(new ProductEntity("Bafles", "Sonido", 200.000, 65));
-        productList.add(new ProductEntity("UPS", "Utilidad", 300.000, 35));
+        productList.add(new ProductEntity("TarjetaGrafica", "Rendimiento", 900.000, 80));
         productList.add(new ProductEntity("Procesador", "Rendimiento", 700.000, 45));
     }
     
